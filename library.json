@@ -1,0 +1,30 @@
+{
+    "name": "arduino-unleash",
+    "keywords": "unleash, feature, toggle",
+    "description": "Unofficial Client SDK for Unleash feature toggle system",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ktos/arduino-unleash"
+    },
+    "authors": [
+        {
+            "name": "Marcin Badurowicz",
+            "email": "ktos@ktos.info",
+            "maintainer": true
+        }
+    ],
+    "version": "0.1.0",
+    "frameworks": "arduino",
+    "platforms": [        
+        "espressif32"
+    ],
+    "dependencies": [
+        {
+            "name": "ArduinoJson",
+            "version": "~6.17.3"
+        }
+    ],
+    "examples": [
+        "examples/*/*.ino"
+    ]
+}
