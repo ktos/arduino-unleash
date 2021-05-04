@@ -107,7 +107,7 @@ void Unleash::fetchFeatures() {
     DeserializationError error = deserializeJson(serverFeatures, payload);
 
     if (error) {
-        DEBUGPRINTFE("deserializeJson() failed: %s", error.f_str());        
+        DEBUGPRINTFE("deserializeJson() failed: %s!\n", error.c_str());        
         return;
     }
 
